@@ -1,0 +1,25 @@
+# --- Core Dependencies ---
+pandas==2.2.2
+numpy==1.26.4
+
+# --- Database Connectivity ---
+mysql-connector-python==9.0.0
+SQLAlchemy==2.0.32
+python-dotenv==1.0.1   # for .env file (optional but recommended)
+
+# --- Machine Learning ---
+scikit-learn==1.5.2
+xgboost==2.1.1
+
+# --- Forecasting ---
+prophet==1.1.5
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Notebooks ---
+jupyter==1.1.1
+notebook==7.2.2
+ipykernel==6.29.5
+
+# --- Utility ---
+tqdm==4.66.5
