@@ -1,56 +1,54 @@
 # Telco Customer Churn & Revenue Intelligence Dashboard
 
-## Project Overview
-This project delivers an end-to-end data analytics pipeline to analyze customer churn, segment high-value accounts, and forecast revenue. Built with Python, SQL, and Power BI, it transforms raw customer data into actionable executive insights.
+## Overview
 
----
+This project analyzes telecom customer data to understand customer churn, identify high-value customers, and generate revenue insights. The workflow includes data cleaning, SQL analysis, machine learning, and an interactive Power BI dashboard.
 
 ## Tech Stack
-* **Python** (Pandas, NumPy, Scikit-Learn)
-* **SQL** (PostgreSQL / MySQL)
-* **Power BI**
-* **GitHub**
 
----
+- Python (Pandas, NumPy, Scikit-learn)
+- SQL (MySQL/PostgreSQL)
+- Power BI
+- Git & GitHub
 
-## Data Pipeline & Methods
-1. **Data Cleaning & Feature Engineering:** Standardized values, handled missing data, and created custom Customer Lifetime Value (CLV) and RFM value tiers.
-2. **Predictive Modeling:** Built a Random Forest classification model in Python to calculate individual customer churn probabilities and identify high-risk accounts.
-3. **SQL Analytics:** Executed queries to segment customers by contract type, revenue contributions, and tenure.
-4. **Power BI Dashboard:** Created an interactive multi-page dashboard for revenue forecasting, churn driver analysis, and retention strategy simulation.
+## Project Workflow
 
----
+- Cleaned and preprocessed the customer dataset.
+- Created customer segments using RFM analysis and Customer Lifetime Value (CLV).
+- Built a Random Forest model to predict customer churn.
+- Used SQL to analyze customer behavior, revenue, and contract types.
+- Developed a Power BI dashboard to visualize churn, revenue, and customer segments.
 
-## Key Business Insights
-* Month-to-month contracts account for the highest proportion of customer churn.
-* High-value customer segments contribute to over 60% of total recurring revenue.
-* Targeted retention campaigns focused on high-risk, high-value tiers yield the highest projected ROI.
+## Key Insights
 
----
+- Customers with month-to-month contracts have the highest churn rate.
+- High-value customers contribute the majority of recurring revenue.
+- Retaining high-risk, high-value customers can improve overall revenue.
 
-## Repository Structure
+## Project Structure
 
 ```text
-├── Data/                 # Raw and processed customer datasets
-├── SQL/                  # SQL queries for RFM analysis and customer segmentation
-├── notebooks/            # Jupyter notebooks for EDA and machine learning
-├── scripts/              # Python automation scripts for data preprocessing
-├── powerbi/              # Power BI report files (.pbix)
-└── README.md             # Project documentation
+Telco-Churn-Analysis/
+├── Data/
+├── SQL/
+├── notebooks/
+├── scripts/
+├── powerbi/
+└── README.md
+```
 
 ## How to Run
 
-1. Clone the repository:
-   git clone https://github.com/yourusername/Telco-Churn-Analysis.git
+```bash
+git clone https://github.com/yourusername/Telco-Churn-Analysis.git
 
-2. Navigate to the project folder:
-   cd Telco-Churn-Analysis
+cd Telco-Churn-Analysis
 
-3. Execute the data processing script:
-   python scripts/process_data.py
+pip install -r requirements.txt
 
----
-
+python scripts/process_data.py
+```
 
 ## Author
+
 Arya Pandey
