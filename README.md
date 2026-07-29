@@ -50,8 +50,7 @@ This project delivers an end-to-end data analytics pipeline to analyze customer 
    python scripts/process_data.py
 
 ---
-## Author
-**Arya Pandey**
+
 
 ## Author
 Arya Pandey
